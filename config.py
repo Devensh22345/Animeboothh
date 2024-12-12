@@ -58,7 +58,8 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = ""
+USER_REPLY_TEXT = "<b>🍑 𝗔𝗱𝘂𝗹𝘁 𝗔𝗻𝗶𝗺𝗲 𝗶𝗻 𝗵𝗶𝗻𝗱𝗶 [𝟭𝟴+] 🤠 https://t.me/+X-vfMcD-GkY3MzQ1
+https://t.me/+X-vfMcD-GkY3MzQ1</b>"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(6872968794)
