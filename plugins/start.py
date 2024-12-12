@@ -89,7 +89,7 @@ async def start_command(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton("Anime in Hindi", url="https://t.me/+KYtbTW-FM1QzM2U1"),
-                    InlineKeyboardButton("Chat Group", callback_data = "close")
+                    InlineKeyboardButton("Chat Group", url="https://t.me/dkanime_group")
                 ]
             ]
         )
