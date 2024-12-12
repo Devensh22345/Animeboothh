@@ -37,14 +37,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "✔️ 𝗡𝗲𝘄 𝗔𝗻𝗶𝗺𝗲 𝗶𝗻 𝗛𝗶𝗻𝗱𝗶 ⛩⛩⛩⛩
-    https://t.me/+2fsV4nzHvOs2OGNl
-
-✅𝗔𝗻𝗶𝗺𝗲 𝗦𝗲𝗮𝗿𝗰𝗵 𝗮𝗻𝗱 𝗖𝗵𝗮𝘁 𝗚𝗿𝗼𝘂𝗽🗯
-    https://t.me/dkanime_group
-
-🍑 𝗔𝗱𝘂𝗹𝘁 𝗔𝗻𝗶𝗺𝗲 𝗶𝗻 𝗵𝗶𝗻𝗱𝗶 [𝟭𝟴+] 🥴
-    https://t.me/+X-vfMcD-GkY3MzQ1")
+START_MSG = os.environ.get("START_MESSAGE", "<b> 𝐁𝐥𝐚𝐜𝐤 𝐜𝐥𝐨𝐯𝐞𝐫 𝐢𝐧 𝐇𝐢𝐧𝐝𝐢 👇👇👇 https://t.me/+nk8JI6VUtuEzN2Fl https://t.me/+nk8JI6VUtuEzN2Fl https://t.me/+nk8JI6VUtuEzN2Fl </b>")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "6872968794").split()):
